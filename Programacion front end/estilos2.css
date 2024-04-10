@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.fondaco{
+    background-color: aliceblue;
+}
+
+.styleheader{
+background-image: linear-gradient(120deg,rgba(209, 16, 9, 0.523),rgba(119, 151, 195, 0.8)), url("img/fondo2.png");
+height: 500px;
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+position: relative;
+overflow: hidden;
+}
+.texto-header{
+    color:white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.texto-1{
+    font-size: 50px;
+    text-shadow: 0 0 10px black;
+    
+}
+.texto-2{
+    font-size: 50px;
+    text-shadow: 0 0 10px black;
+}
